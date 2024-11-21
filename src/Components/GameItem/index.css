@@ -1,0 +1,19 @@
+.image-option {
+  height: 90px;
+  width: 90px;
+  margin: 5px 10px;
+  cursor: pointer;
+}
+
+.option-button {
+  background-color: transparent;
+  border: 0px solid;
+  cursor: pointer;
+}
+
+@media all and (min-width: 768px) {
+  .image-option {
+    height: 140px;
+    width: 140px;
+  }
+}
